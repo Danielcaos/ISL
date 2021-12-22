@@ -1,293 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<title>ISL</title>
+		<!-- Favicon-->
+		<link rel="icon" type="image/x-icon" href="assets/logoufps.png" />
+		<!-- Bootstrap icons-->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+			rel="stylesheet"
+		/>
+		<!-- Core theme CSS (includes Bootstrap)-->
+		<link href="css/styles.css" rel="stylesheet" />
+		<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	</head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>ISL</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/logoufps.png" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-</head>
-
-<body class="d-flex flex-column">
-    <main class="flex-shrink-0">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-Light">
-            <div class="container px-5">
-                <a class="navbar-brand" href="index.html"><img src="assets/Logo-nuevo-horizontal.png" class="img-fluid" alt="..." width="170" height="50"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i style="color: black;" class="bi bi-list"></i>
-                    </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a style="color: black;" class="nav-link" href="index.html">Inicio</a></li>
-                        <li class="nav-item"><a style="color: black;" class="nav-link" href="nivel1.html">Primer Nivel</a></li>
-                        <li class="nav-item"><a style="color: black;" class="nav-link" href="nivel2.html">Segundo Nivel</a></li>
-                        <li class="nav-item"><a style="color: black;" class="nav-link" href="test.html">Test</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <section class="py-5">
-            <div class="container px-5 my-5">
-                <div class="row gx-5">
-                    <div class="col-lg-3">
-                        <div class="d-flex align-items-center mt-lg-5 mb-4">
-                            <div class="ms-3">
-                                <div class="fw-bold">Primera Pregunta</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <!-- Post content-->
-                        <article>
-                            <!-- Post header-->
-                            <header class="mb-4">
-                                <!-- Post title-->
-                                <h1 class="fw-bolder mb-1">Pongamonos a Prueba</h1>
-                            </header>
-                            <!-- Preview image figure-->
-                            <figure class="mb-4"><img style="border: 1px solid #dc3545;" class="img-fluid rounded" src="assets/pregunta1.jpg" alt="..." /></figure>
-                            <!-- Post content-->
-                            <section class="mb-5">
-                                <h3 class="fw-bolder mb-1">Opciones</h3>
-                                <br>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Patricia
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Verónica
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Fernando
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Santiago
-                                    </label>
-                                </div>
-                            </section>
-                        </article>
-                    </div>
-                </div>
-                <div class="row gx-5">
-                    <div class="col-lg-3">
-                        <div class="d-flex align-items-center mt-lg-5 mb-4">
-                            <div class="ms-3">
-                                <div class="fw-bold">Segunda Pregunta</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <!-- Post content-->
-                        <article>
-                            <!-- Preview image figure-->
-                            <figure class="mb-4"><img style="border: 1px solid #dc3545;" class="img-fluid rounded" src="assets/pregunta2.jpg" alt="..." /></figure>
-                            <!-- Post content-->
-                            <section class="mb-5">
-                                <h3 class="fw-bolder mb-1">Opciones</h3>
-                                <br>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Hambre-Confundido-Bienvenido
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Dolor-Miedo-Adelante
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Ayuda-Familia-Sentarse
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Malestar-Abrazar-Amable
-                                    </label>
-                                </div>
-                            </section>
-                        </article>
-                    </div>
-                </div>
-                <div class="row gx-5">
-                    <div class="col-lg-3">
-                        <div class="d-flex align-items-center mt-lg-5 mb-4">
-                            <div class="ms-3">
-                                <div class="fw-bold">Tercera Pregunta</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <!-- Post content-->
-                        <article>
-                            <!-- Preview image figure-->
-                            <figure class="mb-4"><img style="border: 1px solid #dc3545;" class="img-fluid rounded" src="assets/pregunta3.jpg" alt="..." /></figure>
-                            <!-- Post content-->
-                            <section class="mb-5">
-                                <h3 class="fw-bolder mb-1">Opciones</h3>
-                                <br>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        <img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/nivel2/Decir_perdon.JPG" alt="..." width="75" height="50"/>
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        <img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/nivel2/Decir_ayudar.JPG" alt="..." width="75" height="50"/>
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        <img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/nivel2/Decir_por_favor.jpg" alt="..." width="75" height="50"/>
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        <img class="img-fluid rounded mb-5 mb-lg-0" src="/assets/nivel2/Decir_atencion.JPG" alt="..." width="75" height="50"/>
-                                    </label>
-                                </div>
-                            </section>
-                        </article>
-                    </div>
-                </div>
-                <div class="row gx-5">
-                    <div class="col-lg-3">
-                        <div class="d-flex align-items-center mt-lg-5 mb-4">
-                            <div class="ms-3">
-                                <div class="fw-bold">Cuarta Pregunta</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <!-- Post content-->
-                        <article>
-                            <!-- Preview image figure-->
-                            <figure class="mb-4"><img style="border: 1px solid #dc3545;" class="img-fluid rounded" src="assets/pregunta4.jpg" alt="..." /></figure>
-                            <!-- Post content-->
-                            <section class="mb-5">
-                                <h3 class="fw-bolder mb-1">Opciones</h3>
-                                <br>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Recordar
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Pensar
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Imaginar
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        Reflexionar
-                                    </label>
-                                </div>
-                            </section>
-                        </article>
-                    </div>
-                </div>
-                <div class="row gx-5">
-                    <div class="col-lg-3">
-                        <div class="d-flex align-items-center mt-lg-5 mb-4">
-                            <div class="ms-3">
-                                <div class="fw-bold">Quinta Pregunta</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <!-- Post content-->
-                        <article>
-                            <!-- Preview image figure-->
-                            <figure class="mb-4"><img style="border: 1px solid #dc3545;" class="img-fluid rounded" src="assets/pregunta5.gif" alt="..." /></figure>
-                            <!-- Post content-->
-                            <section class="mb-5">
-                                <h3 class="fw-bolder mb-1">Opciones</h3>
-                                <br>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        26
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        29
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        21
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">
-                                        22
-                                    </label>
-                                </div>
-                            </section>
-                        </article>
-                        <br>
-                        <div style="text-align: center;">
-                            <button style="width: 100%;" type="button" class="btn btn-danger">TERMINAR</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <!-- Footer-->
-    <footer class="bg-danger py-4 mt-auto">
-        <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto">
-                    <div class="small m-0 text-white">Copyright &copy; Universidad Francisco de Paula Santander 2021</div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-</body>
-
+	<body class="d-flex flex-column">
+		<main class="flex-shrink-0">
+			<!-- Navigation-->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-Light">
+				<div class="container px-5">
+					<a class="navbar-brand" href="index.html"
+						><img
+							src="assets/Logo-nuevo-horizontal.png"
+							class="img-fluid"
+							alt="..."
+							width="170"
+							height="50"
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i style="color: black" class="bi bi-list"></i>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a style="color: black" class="nav-link" href="index.html"
+									>Inicio</a
+								>
+							</li>
+							<li class="nav-item">
+								<a style="color: black" class="nav-link" href="nivel1.html"
+									>Primer Nivel</a
+								>
+							</li>
+							<li class="nav-item">
+								<a style="color: black" class="nav-link" href="nivel2.html"
+									>Segundo Nivel</a
+								>
+							</li>
+							<li class="nav-item">
+								<a style="color: black" class="nav-link" href="test.html"
+									>Test</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- Page Content-->
+			<section class="py-5">
+				<div class="container px-5 my-5">
+					<div class="row gx-5">
+						<div class="col-lg-3">
+							<div class="d-flex align-items-center mt-lg-5 mb-4">
+								<div class="ms-3">
+									<div class="fw-bold">Primera Pregunta</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-9">
+							<!-- Post content-->
+							<article>
+								<!-- Post header-->
+								<header class="mb-4">
+									<!-- Post title-->
+									<h1 class="fw-bolder mb-1">Pongamonos a Prueba</h1>
+								</header>
+								<!-- Preview image figure-->
+								<figure class="mb-4">
+									<img
+										style="border: 1px solid #dc3545"
+										class="img-fluid rounded"
+										src="assets/pregunta1.jpg"
+										alt="..."
+									/>
+								</figure>
+								<!-- Post content-->
+								<section class="mb-5">
+									<h3 class="fw-bolder mb-1">Opciones</h3>
+									<br />
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="kgdfofsd"
+											type="radio"
+											name="q1"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Patricia
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="hjfghdfgd"
+											type="radio"
+											name="q1"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Verónica
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="hgfyh5dfg"
+											type="radio"
+											name="q1"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Fernando
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="fsdfeghsd"
+											type="radio"
+											name="q1"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Santiago
+										</label>
+									</div>
+								</section>
+							</article>
+						</div>
+					</div>
+					<div class="row gx-5">
+						<div class="col-lg-3">
+							<div class="d-flex align-items-center mt-lg-5 mb-4">
+								<div class="ms-3">
+									<div class="fw-bold">Segunda Pregunta</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-9">
+							<!-- Post content-->
+							<article>
+								<!-- Preview image figure-->
+								<figure class="mb-4">
+									<img
+										style="border: 1px solid #dc3545"
+										class="img-fluid rounded"
+										src="assets/pregunta2.jpg"
+										alt="..."
+									/>
+								</figure>
+								<!-- Post content-->
+								<section class="mb-5">
+									<h3 class="fw-bolder mb-1">Opciones</h3>
+									<br />
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="hdfgertgsdg"
+											type="radio"
+											name="q2"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Hambre-Confundido-Bienvenido
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="fdhdsfgwse"
+											type="radio"
+											name="q2"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Dolor-Miedo-Adelante
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="dashgrgdca"
+											type="radio"
+											name="q2"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Ayuda-Familia-Sentarse
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="kjghyhtgdfgw"
+											type="radio"
+											name="q2"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Malestar-Abrazar-Amable
+										</label>
+									</div>
+								</section>
+							</article>
+						</div>
+					</div>
+					<div class="row gx-5">
+						<div class="col-lg-3">
+							<div class="d-flex align-items-center mt-lg-5 mb-4">
+								<div class="ms-3">
+									<div class="fw-bold">Tercera Pregunta</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-9">
+							<!-- Post content-->
+							<article>
+								<!-- Preview image figure-->
+								<figure class="mb-4">
+									<img
+										style="border: 1px solid #dc3545"
+										class="img-fluid rounded"
+										src="assets/pregunta3.jpg"
+										alt="..."
+									/>
+								</figure>
+								<!-- Post content-->
+								<section class="mb-5">
+									<h3 class="fw-bolder mb-1">Opciones</h3>
+									<br />
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="qwefhdfgsdrt"
+											type="radio"
+											name="q3"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											<img
+												class="img-fluid rounded mb-5 mb-lg-0"
+												src="/assets/nivel2/Decir_perdon.JPG"
+												alt="..."
+												width="75"
+												height="50"
+											/>
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="bsdfdhgrtgs"
+											type="radio"
+											name="q3"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											<img
+												class="img-fluid rounded mb-5 mb-lg-0"
+												src="/assets/nivel2/Decir_ayudar.JPG"
+												alt="..."
+												width="75"
+												height="50"
+											/>
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="nhwrgqfgdq"
+											type="radio"
+											name="q3"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											<img
+												class="img-fluid rounded mb-5 mb-lg-0"
+												src="/assets/nivel2/Decir_por_favor.jpg"
+												alt="..."
+												width="75"
+												height="50"
+											/>
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="qeqfasfbarq"
+											type="radio"
+											name="q3"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											<img
+												class="img-fluid rounded mb-5 mb-lg-0"
+												src="/assets/nivel2/Decir_atencion.JPG"
+												alt="..."
+												width="75"
+												height="50"
+											/>
+										</label>
+									</div>
+								</section>
+							</article>
+						</div>
+					</div>
+					<div class="row gx-5">
+						<div class="col-lg-3">
+							<div class="d-flex align-items-center mt-lg-5 mb-4">
+								<div class="ms-3">
+									<div class="fw-bold">Cuarta Pregunta</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-9">
+							<!-- Post content-->
+							<article>
+								<!-- Preview image figure-->
+								<figure class="mb-4">
+									<img
+										style="border: 1px solid #dc3545"
+										class="img-fluid rounded"
+										src="assets/pregunta4.jpg"
+										alt="..."
+									/>
+								</figure>
+								<!-- Post content-->
+								<section class="mb-5">
+									<h3 class="fw-bolder mb-1">Opciones</h3>
+									<br />
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="ghergywgsf"
+											type="radio"
+											name="q4"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Recordar
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="kdwrfq43das"
+											type="radio"
+											name="q4"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Pensar
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="wefqw123t4"
+											type="radio"
+											name="q4"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Imaginar
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="213hdfgweds"
+											type="radio"
+											name="q4"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											Reflexionar
+										</label>
+									</div>
+								</section>
+							</article>
+						</div>
+					</div>
+					<div class="row gx-5">
+						<div class="col-lg-3">
+							<div class="d-flex align-items-center mt-lg-5 mb-4">
+								<div class="ms-3">
+									<div class="fw-bold">Quinta Pregunta</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-9">
+							<!-- Post content-->
+							<article>
+								<!-- Preview image figure-->
+								<figure class="mb-4">
+									<img
+										style="border: 1px solid #dc3545"
+										class="img-fluid rounded"
+										src="assets/pregunta5.gif"
+										alt="..."
+									/>
+								</figure>
+								<!-- Post content-->
+								<section class="mb-5">
+									<h3 class="fw-bolder mb-1">Opciones</h3>
+									<br />
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="gsdfasdq12"
+											type="radio"
+											name="q5"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											26
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="4534bfhasfda"
+											type="radio"
+											name="q5"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											29
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="hbfwer2452f"
+											type="radio"
+											name="q5"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											21
+										</label>
+									</div>
+									<div class="form-check">
+										<input
+											class="form-check-input"
+											data-answer="gsdfg2342bsds"
+											type="radio"
+											name="q5"
+											id="flexRadioDefault1"
+										/>
+										<label class="form-check-label" for="flexRadioDefault1">
+											22
+										</label>
+									</div>
+								</section>
+							</article>
+							<br />
+							<div style="text-align: center">
+								<button
+									style="width: 100%"
+									type="button"
+									class="btn btn-danger"
+									id="submit"
+								>
+									TERMINAR
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Footer-->
+		<footer class="bg-danger py-4 mt-auto">
+			<div class="container px-5">
+				<div
+					class="
+						row
+						align-items-center
+						justify-content-between
+						flex-column flex-sm-row
+					"
+				>
+					<div class="col-auto">
+						<div class="small m-0 text-white">
+							Copyright &copy; Universidad Francisco de Paula Santander 2021
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Bootstrap core JS-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- Core theme JS-->
+		<script src="js/scripts.js"></script>
+	</body>
 </html>
